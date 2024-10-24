@@ -155,11 +155,11 @@ Pode ser utilizado para fins de estudo/aprendizado
 - PHP 8.2
 - Laravel 11
 - Websocket com Laravel Broadcasting (reverb)
-- Node
-- PHPunit
-- Redis
+- Node 20.15.1
+- PHPUnit 11
+- Redis 6
 - MYSQL 8
-- Docker e docker-compose
+- Docker 27.3.1 e docker-compose 2.29.7
 
 ## Demonstrativo
 
