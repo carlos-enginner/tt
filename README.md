@@ -154,7 +154,7 @@ Pode ser utilizado para fins de estudo/aprendizado
 
 - PHP 8.2
 - Laravel 11
-- Laravel Broadcasting (reverb)
+- Websocket com Laravel Broadcasting (reverb)
 - Node
 - PHPunit
 - Redis
