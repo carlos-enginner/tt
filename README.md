@@ -33,7 +33,7 @@ APP_ENV=local
 APP_KEY=base64:PeBf8xjOBlWSbVbp1tO8jEjSNbbQltGHnSzos/OXxyI=
 APP_DEBUG=true
 APP_TIMEZONE=America/Sao_Paulo
-APP_URL=http://localhost
+APP_URL=http://localhost/checkout
 
 APP_LOCALE=en
 APP_FALLBACK_LOCALE=en
