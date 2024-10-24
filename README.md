@@ -22,10 +22,10 @@ https://{url_gerada_apos_server_iniciado}.ngrok-free.app/webhook
 
 - Subindo a aplicação, siga os seguintes passos:
 
-1. git clone https://github.com/carlos-enginner/tt.git;
+1. ```git clone https://github.com/carlos-enginner/tt.git```
 2. atualize o .env (aproveitando as configs já existentes) com o conteúdo shell a seguir;
-3. execute no diretorio criado o comando ```bash startup.sh```;
-4. acesse http://localhost/checkout;
+3. execute no diretorio criado o comando ```bash startup.sh```
+4. acesse ```http://localhost/checkout```
 
 ```shell
 APP_NAME=Laravel
