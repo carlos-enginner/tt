@@ -9,16 +9,16 @@ Um projeto demo para teste técnico que envolve a criação de um aplicativo de 
 Para subir a aplicação é necessário instalar e configurar o Ngrok, além de configurar o painel webhook do Asaas para apontar para a 
 url gerada pelo Ngrok.
 
-- Instalação ngrok e subindo o servidor (fazendo o webhook de pagamento funcionar)
+- Instalação ngrok e subindo o servidor (fazendo o webhook de pagamento funcionar). Se já configurado pular essa parte.
 
 ```curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list && sudo apt update && sudo apt install ngrok```
 
-```ngrok config add-authtoken 2nXqoaUiYRX1lK6DCLbN71VM5l1_6o66FPPfBuAYNBTcAZosK```
+```ngrok config add-authtoken token_da_sua_conta```
 
 - Adicionar a url gerada no campo URL do Webhook no painel do Asaas em https://sandbox.asaas.com/customerConfigIntegrations/webhooks
 https://{url_gerada_apos_server_iniciado}.ngrok-free.app/webhook
 
-> ativar a opção "Fila de sincronização ativada", em caso de offline em https://sandbox.asaas.com/customerConfigIntegrations/webhooks
+> Ative a opção "Fila de sincronização ativada", em caso de offline em https://sandbox.asaas.com/customerConfigIntegrations/webhooks
 
 - Subindo a aplicação, siga os seguintes passos:
 
