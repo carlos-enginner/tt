@@ -9,6 +9,17 @@ docker exec -it laravel_app php-fpm -D
 # subindo o processo do nginx
 docker exec -it laravel_app nginx
 
+# instalando packages php
+docker exec -it laravel_app composer install
+
+# instalando packages nodejs
+docker exec -it laravel_app npm install
+
+# dando permissão geral
+docker exec laravel_app chmod -R 777 storage/framework/views
+
+docker exec laravel_app chmod -R 777 storage/logs   
+
 # rodando composer dump-autoload optimize
 docker exec laravel_app composer dump-autoload -o
 
