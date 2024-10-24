@@ -148,7 +148,7 @@ Pode ser utilizado para fins de estudo/aprendizado
 
 ## Pontos de atenção:
 
-- componente critico (redis) sem persistencia de dados;
+- componente critico: Redis, sem persistência de dados;
 
 ## Stacks:
 
